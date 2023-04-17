@@ -1,0 +1,23 @@
+/** @format */
+
+.headerCover {
+  width: 100%;
+  background-color: #eee;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  padding: 10px 0;
+  margin-left: auto;
+  margin-right: 15px;
+}
+.header button {
+  background-color: transparent;
+
+  border: none;
+  margin-left: 23px;
+  cursor: pointer;
+}
+.value {
+}

@@ -1,0 +1,14 @@
+/** @format */
+
+.window {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  width: 90%;
+  right: 0;
+  background-color: white;
+
+  box-shadow: 2px 3px 5px 3px rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  height: 93.3vh;
+}

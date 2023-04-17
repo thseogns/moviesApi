@@ -1,0 +1,52 @@
+/** @format */
+.infoBoxCover {
+}
+.profileCover {
+  width: 50%;
+  min-width: 400px;
+}
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  min-width: 400px;
+}
+
+.circle img {
+  background-size: cover;
+  transform: translate(0, 65px);
+}
+.infoBoxCover .infoTitle {
+  display: flex;
+
+  font-size: 20px;
+  margin-top: 80px;
+}
+.infoBoxCover .infoTitle h1 {
+  margin-left: 10px;
+}
+.infoBoxCover .infoBox {
+  display: flex;
+
+  width: 88%;
+  margin: 70px auto;
+}
+.infoBoxCover .infoBox div {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.D_infoBox {
+  gap: 10px;
+  min-width: 500px;
+  padding-left: 30px;
+  font-size: 28px;
+}
+.D_infoBox span {
+  margin-left: 10px;
+}
+.D_infoBox strong:nth-child(1),
+strong:nth-child(5) {
+  margin-bottom: 30px;
+}

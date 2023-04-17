@@ -1,0 +1,22 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slick-slide h3 {
+  padding: 30px 0;
+}
+.slick-slide div {
+  width: 90%;
+  height: 80vh;
+  margin: auto;
+}
+.slick-slide div img {
+  width: 80%;
+  height: 80%;
+
+  margin: auto;
+  box-shadow: 2px 10px 10px #949494;
+}

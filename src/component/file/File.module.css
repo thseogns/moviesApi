@@ -1,0 +1,28 @@
+/** @format */
+
+.folder {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  color: white;
+  text-shadow: black 2px 1px 1px;
+}
+.folder img {
+  width: 70%;
+}
+.folder > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.folderCover {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-left: 15px;
+  margin-top: 15px;
+  gap: 10px;
+}

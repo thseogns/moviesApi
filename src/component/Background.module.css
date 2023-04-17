@@ -1,0 +1,13 @@
+/** @format */
+
+.main_back img {
+  width: 100%;
+
+  background-size: contain;
+  vertical-align: middle;
+  max-height: 100vh;
+}
+.main_back {
+  position: relative;
+  overflow: hidden;
+}
