@@ -1,23 +1,29 @@
-/** @format */
-
-* {
-  font-family: "Noto Sans KR", sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.slick-slide h3 {
-  padding: 30px 0;
-}
-.slick-slide div {
+section {
+  margin: 1rem auto;
   width: 90%;
-  height: 80vh;
-  margin: auto;
+  max-width: 40rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
 }
-.slick-slide div img {
-  width: 80%;
-  height: 80%;
 
-  margin: auto;
-  box-shadow: 2px 10px 10px #949494;
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #230052;
+  border: 1px solid #230052;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #460897;
+  border-color: #460897;
 }
