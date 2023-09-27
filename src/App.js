@@ -16,7 +16,7 @@ function App() {
     setError(null);
     try {
       const response = await fetch(
-        "https://movies-9bd51-default-rtdb.firebaseio.com/movie.json"
+        "https://addmovie-9289c-default-rtdb.firebaseio.com/movie.json"
       );
       if (!response.ok) {
         throw new Error("Something went wrong!");
@@ -45,7 +45,7 @@ function App() {
 
   const addMovieHandler = async (movie) => {
     const response = await fetch(
-      "https://movies-9bd51-default-rtdb.firebaseio.com/movie.json",
+      "https://addmovie-9289c-default-rtdb.firebaseio.com/movie.json",
       {
         method: "POST",
         body: JSON.stringify(movie),
