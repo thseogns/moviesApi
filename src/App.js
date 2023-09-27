@@ -50,7 +50,7 @@ function App() {
         method: "POST",
         body: JSON.stringify(movie),
         headers: { "Content-Type": "aplication/json" },
-      }
+      } 
     );
     const data = response.json();
     console.log(data);
