@@ -49,7 +49,7 @@ function App() {
       {
         method: "POST",
         body: JSON.stringify(movie),
-        headers: { "Content-Type": "aplication/json" },
+     headers: { "Content-Type": "application/json" }
       } 
     );
     const data = response.json();
